@@ -1,0 +1,444 @@
+body {
+    background: url("../images/bg1.jpg") center;
+    background-size: cover;
+}
+
+nav.navbar.navbar-expand-lg {
+    padding: 0px 45px;
+}
+
+@media (min-width: 992px) {
+    nav.navbar.navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+.slideshow {
+    width: 100%;
+    height: 400px;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow.slide-1 {
+    background: url("../images/slideshow1.jpg") center;
+    background-size: cover;
+}
+
+.slideshow.slide-2 {
+    background: url("../images/slideshow2.jpg") center;
+    background-size: cover;
+}
+
+.slideshow.slide-3 {
+    background: url("../images/slideshow3.jpg") center;
+    background-size: cover;
+}
+
+.slideshow .textblock {
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    width: 55%;
+}
+
+.slideshow .textblock h1 {
+    color: #fff;
+    display: table;
+    margin: 0 auto;
+    padding: 5% 0 0 0;
+    text-align: center;
+}
+
+.slideshow .textblock p {
+    color: #fff;
+    display: table;
+    margin: 0 auto 0 auto;
+    padding: 5% 0 5% 0;
+    text-align: center;
+    width: 90%;
+}
+
+.service {
+    padding: 40px 30px 40px 30px;
+}
+
+.service h2 {
+    font-size: 1.3rem;
+}
+
+.service p {
+    color: #6f6f6f;
+}
+
+.row .services {
+    background-color: #fff;
+}
+
+.gallery-index {
+    margin: 0 10px;
+    padding: 0 0 60px 0;
+}
+
+.gallery-index a img {
+    border-bottom: 3px solid #51639f;
+    margin-bottom: 20px;
+}
+
+.row .companies {
+    background-color: #fff;
+}
+
+.companies-list {
+    margin: 0 10px;
+    padding: 0 0 60px 0;
+}
+
+.companies-list .col-md {
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.companies-list .col-md img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: all 0.1s;
+}
+
+.companies-list .col-md img:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.footer {
+    background-color: #424242;
+}
+
+.footer .footer-column {
+    margin: 0 10px;
+    padding: 60px 0 60px 0;
+}
+
+.footer .footer-column .footer-logo {
+    height: 50px;
+}
+
+.footer .footer-column p {
+    color: #c3c3c3;
+    margin-top: 20px;
+}
+
+.footer .footer-column p a {
+    color: #a5a5a5;
+}
+
+.footer .footer-column h3 {
+    font-size: 1.3em;
+    color: #dcdcdc;
+}
+
+.footer-bottom {
+    background-color: #2f2f2f;
+}
+
+.footer-bottom .footer-bottom-column {
+    margin: 0 10px;
+}
+
+.footer-bottom .footer-bottom-column p {
+    padding: 20px 0;
+    margin: 0;
+    color: #a2a2a2;
+    line-height: 38px;
+}
+
+.footer-bottom .footer-bottom-column .social {
+    padding: 20px 0;
+    margin: 0;
+    text-align: right;
+    font-size: 1.6em;
+}
+
+.footer-bottom .footer-bottom-column .social a {
+    color: #a2a2a2;
+    transition: color 0.2s;
+}
+
+.footer-bottom .footer-bottom-column .social a:hover {
+    color: #d8d8d8;
+}
+
+.about-heading {
+    background-color: #2041ad;
+    color: #fff;
+}
+
+.about-heading p {
+    color: #dadada;
+}
+
+.about-heading-line {
+    padding: 40px 30px 40px 30px;
+}
+
+.mapouter {
+    width: 100%;
+    background-color: #fff;
+}
+
+.about-text {
+    background-color: #fff;
+}
+
+.about-text-line, .gallery-about {
+    padding: 40px 30px 40px 30px;
+}
+
+.gallery-about {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contact {
+    background-color: #f1f1f1;
+}
+
+.contact-info, .contact-us {
+    padding: 40px 30px 40px 30px;
+}
+
+.btn-blue {
+    background-color: #2041ad;
+    border-color: #1b2457;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #0e31a5;
+    border-color: #1b2457;
+    color: #fff;
+}
+
+.btn-blue:focus {
+    box-shadow: 0 0 0 0.2rem rgba(134, 81, 159, 0.25);
+}
+
+.btn-blue:active {
+    background-color: #2041ad;
+}
+
+.contact-info .social {
+    margin: 0;
+    font-size: 1.9em;
+}
+
+.contact-info .social a {
+    color: #353535;
+    transition: color 0.2s;
+}
+
+.contact-info .social a:hover {
+    color: #636363;
+}
+
+.contact-info a {
+    color: #2041ad;
+}
+
+.contact-info a:hover {
+    color: #0e31a5;
+}
+
+#modalContactForm .modal-body .name, #modalContactForm .modal-body .email {
+    font-weight: 700;
+}
+
+#alert-contact-success {
+    display: none;
+}
+
+.articles-heading {
+    background-color: #2041ad;
+    color: #fff;
+}
+
+.articles-heading p {
+    color: #dadada;
+}
+
+.articles-heading-line {
+    padding: 40px 30px 40px 30px;
+}
+
+.articles {
+    background-color: #fff;
+    padding-top: 60px;
+}
+
+.articles-list {
+    padding: 0 30px 0px 30px;
+}
+
+.articles .articles-list .article h2 a {
+    color: #212529;    
+}
+
+.articles .articles-list .article .article-info ul li, .articles .articles-list .article .article-info ul li a{
+    color: #6d6d6d;
+}
+
+.articles .articles-list .article .article-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.articles .articles-list .article .article-info ul li {
+    display:inline;
+}
+
+.articles .articles-list .article .article-info ul li:nth-child(n+2) {
+    margin-left: 20px;
+}
+
+.articles .articles-list .article .article-info ul li i {
+    font-size: 0.8em;
+}
+
+.articles .articles-list .article .article-info {
+    margin: 0 0 20px 0;
+}
+
+.articles .articles-list .article .article-summary {
+    margin: 20px 0 0 0;
+}
+
+.articles .articles-list .article .article-divider {
+    margin: 50px 0 50px 0;
+}
+
+.paginator ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 50px 0;
+}
+
+.paginator ul li {
+    display: inline;
+}
+
+.paginator ul li a {
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #b3b3b3;
+    border-radius: 6px;
+}
+
+.paginator ul li a:hover {
+    background-color: #6f6f6f;
+}
+
+.paginator ul li a.active {
+    background-color: #2041ad;
+}
+
+.articles-side h3 {
+    font-size: 1.1em;
+    margin: 40px 0 20px 0;
+}
+
+.articles-side .articles-categories ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.articles-side .articles-categories ul li {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 5px 0 5px 5px;
+}
+
+.articles-side .articles-categories ul li:last-child {
+    border-bottom: none;
+}
+
+.articles-side .articles-categories ul li a {
+    color: #6d6d6d;
+}
+
+.articles-side .articles-categories ul li a:hover {
+    color: #353535;
+    text-decoration: none;
+}
+
+.articles-side .text-widget p {
+    color: #6d6d6d;
+}
+
+.articles-side .posts .nav {
+    margin-bottom: 20px;
+}
+
+.articles-side .posts .nav .nav-link {
+    color: #6d6d6d;
+    cursor: pointer;
+}
+
+.articles-side .posts .nav .nav-link.active {
+    color: #353535;
+    font-weight: 500;
+}
+
+.articles-side .posts .recent-post, .articles-side .posts .popular-post {
+    margin-bottom: 20px;
+}
+
+.articles-side .posts .recent-post .image, .articles-side .posts .popular-post .image {
+    display: inline;
+    width: 25%;
+}
+
+.articles-side .posts .recent-post .post-text, .articles-side .posts .popular-post .post-text {
+    display: inline;
+    float: right;
+    width: 75%;
+}
+
+.articles-side .posts .recent-post .image a img, .articles-side .posts .popular-post .image a img {
+    object-fit: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: all 0.1s;
+}
+
+.articles-side .posts .recent-post .image a img:hover, .articles-side .posts .popular-post .image a img:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.articles-side .posts .recent-post .post-text .title a, .articles-side .posts .popular-post .post-text .title a {
+    color: #353535;
+}
+
+.articles-side .posts .recent-post .post-text .date, .articles-side .posts .popular-post .post-text .date {
+    color: #6d6d6d;
+}
+
+.articles-side .posts .popular-post {
+    display: none;
+}
+
